@@ -14,6 +14,27 @@
 
 DEVICE_PACKAGE_OVERLAYS := vendor/oppo/find7op/overlay
 
-PRODUCT_PACKAGES += libtime_genoff
+PRODUCT_PACKAGES += \
+    com.qualcomm.location \
+    PPPreference \
+    QuickBoot \
+    qcrilmsgtunnel \
+    shutdownlistener
+
+PRODUCT_PACKAGES += \
+    libHevcSwDecoder \
+    libmm-abl \
+    libtime_genoff \
+    libTimeService \
+    TimeService
+
+PRODUCT_PACKAGES += \
+    libscale
+
+PRODUCT_PACKAGES += \
+    libwvdrmengine \
+    libwvdrm_L3 \
+    libwvm \
+    libWVStreamControlAPI_L3
 
 $(call inherit-product, vendor/oppo/find7op/find7op-vendor-blobs.mk)
