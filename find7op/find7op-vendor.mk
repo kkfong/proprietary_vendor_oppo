@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-DEVICE_PACKAGE_OVERLAYS := vendor/oppo/find7a/overlay
+DEVICE_PACKAGE_OVERLAYS := vendor/oppo/find7op/overlay
 
 PRODUCT_PACKAGES += libtime_genoff
 
